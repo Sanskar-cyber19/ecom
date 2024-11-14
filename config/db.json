@@ -1,0 +1,106 @@
+{
+  "products": [
+    {
+      "category_id": 3,
+      "created_date": "2024-11-06 06:21:22.270352",
+      "id": 1,
+      "image": "media/redmi9A1.jpg",
+      "images_id": ["media/redmi9A1.jpg", "media/redmi9A2.jpg"],
+      "info": "\"13MP rear camera with AI portrait, AI scene recognition, HDR, pro mode | 5MP front camera.\",\r\n                \"16.58 centimeters (6.53 inch) HD+ multi-touch capacitive touchscreen with 1600 x 720 pixels resolution, 268 ppi pixel density and 20:9 aspect ratio\",\r\n                \"Memory, Storage & SIM: 2GB RAM, 32GB internal memory expandable up to 512GB | Dual SIM (nano+nano) + Dedicated SD card slot\",\r\n                \"Android v10 operating system with upto 2.0GHz clock speed Mediatek Helio G25 octa core processor\",\r\n                \"5000mAH lithium-polymer large battery with 10W wired charger in-box\"",
+      "name": "Redmi 9A (Nature Green, 2GB RAM, 32GB Storage)",
+      "oldPrice": 9999,
+      "price": 6999,
+      "rating": 4.3,
+      "slug": "redmi-9a-nature-green-2gb-ram-32gb-storage"
+    },
+    {
+      "category_id": 3,
+      "created_date": "2024-11-11 12:57:30.971613",
+      "id": 2,
+      "image": "media/oppophone1.jpg",
+      "images_id": ["media/oppophone1.jpg", "media/oppophone2.jpg"],
+      "info": "\"Quad Camera Setup - 64MP (F1.8) Main Camera +8MP (F2.2) Ultra Wide Camera +5MP(F2.2) Depth Camera +5MP(F2.4) Macro Camera and 32MP (F2.0) front facing Camera\",\r\n        \"6.4-inch(16.21 centimeters) Super Amoled - Infinity U Cut Display , FHD+ Resolution (2340 x 1080) , 404 ppi pixel density and 16M color support\",\r\n        \"Android v10.0 operating system with 2.3GHz + 1.7GHz Exynos 9611 Octa core processor , 6GB RAM, 128GB internal memory expandable up to 512GB and dual SIM\",\r\n        \"6000 mAh Battery\"",
+      "name": "Samsung Galaxy M31 (6GB RAM, 128GB Storage)",
+      "oldPrice": 19999,
+      "price": 14999,
+      "rating": 4.5,
+      "slug": "samsung-galaxy-m31-6gb-ram-128gb-storage"
+    },
+    {
+      "category_id": 3,
+      "created_date": "2024-11-11 12:59:04.291618",
+      "id": 3,
+      "image": "media/oneplusN1.jpg",
+      "images_id": ["media/oneplusN1.jpg", "media/oneplusN1.jpg"],
+      "info": "\"Quad Camera Setup - 64MP (F1.8) Main Camera +8MP (F2.2) Ultra Wide Camera +5MP(F2.2) Depth Camera +5MP(F2.4) Macro Camera and 32MP (F2.0) front facing Camera\",\r\n        \"6.4-inch(16.21 centimeters) Super Amoled - Infinity U Cut Display , FHD+ Resolution (2340 x 1080) , 404 ppi pixel density and 16M color support\",\r\n        \"Android v10.0 operating system with 2.3GHz + 1.7GHz Exynos 9611 Octa core processor , 6GB RAM, 128GB internal memory expandable up to 512GB and dual SIM\",\r\n        \"6000 mAh Battery\"",
+      "name": "Apple iPhone 12 Pro Max (128GB)",
+      "oldPrice": 129999,
+      "price": 119999,
+      "rating": 5.0,
+      "slug": "apple-iphone-12-pro-max-128gb"
+    },
+    {
+      "category_id": 5,
+      "created_date": "2024-11-11 13:02:00.946639",
+      "id": 4,
+      "image": "media/monksoldhisferrari.jpg",
+      "images_id": ["media/monksoldhisferrari.jpg"],
+      "info": "A renowned inspirational fiction, The Monk Who Sold His Ferrari is a revealing story that offers the readers a simple yet profound way to live life. The plot of this story revolves around Julian Mantle, a lawyer who has made his fortune and name in the profession. A sudden heart-attack creates havoc in the successful lawyer’s life. Jolted by the sudden onset of the illness, his practice comes to a standstill. He ponders over material success being worth it all, renounces all of it and leaves for India.",
+      "name": "The Monk Who Sold His Ferrari",
+      "oldPrice": 199,
+      "price": 159,
+      "rating": 2.5,
+      "slug": "the-monk-who-sold-his-ferrari"
+    },
+    {
+      "category_id": 5,
+      "created_date": "2024-11-11 13:03:23.210612",
+      "id": 5,
+      "image": "media/greyhumour.jpg",
+      "images_id": ["media/greyhumour.jpg"],
+      "info": "A renowned inspirational fiction, The Monk Who Sold His Ferrari is a revealing story that offers the readers a simple yet profound way to live life. The plot of this story revolves around Julian Mantle, a lawyer who has made his fortune and name in the profession. A sudden heart-attack creates havoc in the successful lawyer’s life. Jolted by the sudden onset of the illness, his practice comes to a standstill. He ponders over material success being worth it all, renounces all of it and leaves for India.",
+      "name": "The Immortals of Meluha (Shiva Trilogy)",
+      "oldPrice": 399,
+      "price": 299,
+      "rating": 3.4,
+      "slug": "the-immortals-of-meluha-shiva-trilogy"
+    },
+    {
+      "category_id": 5,
+      "created_date": "2024-11-11 13:05:34.269619",
+      "id": 6,
+      "image": "media/bumkeshbakshi.jpg",
+      "images_id": ["media/bumkeshbakshi.jpg"],
+      "info": "A renowned inspirational fiction, The Monk Who Sold His Ferrari is a revealing story that offers the readers a simple yet profound way to live life. The plot of this story revolves around Julian Mantle, a lawyer who has made his fortune and name in the profession. A sudden heart-attack creates havoc in the successful lawyer’s life. Jolted by the sudden onset of the illness, his practice comes to a standstill. He ponders over material success being worth it all, renounces all of it and leaves for India.",
+      "name": "Byomkesh Bakshi ki Rahasyamayi Kahaniyan",
+      "oldPrice": 179,
+      "price": 139,
+      "rating": 3.8,
+      "slug": "byomkesh-bakshi-ki-rahasyamayi-kahaniyan"
+    }
+  ],
+  "category": [
+    {
+      "id": 3,
+      "name": "Phone/Mobile",
+      "image": "media/redmi9A1.jpg",
+      "slug": "moblie-phone"
+    },
+    {
+      "id": 5,
+      "name": "Books",
+      "image": "media/bumkeshbakshi.jpg",
+      "slug": "books"
+    }
+  ],
+  "user":[
+    {
+        "id":1,
+        "name":"Jon Hens",
+        "email":"example@gmail.com",
+        "password":"admin",
+        "phone":"1234567890"
+    }
+  ],
+  "order":[]
+}
