@@ -1,14 +1,15 @@
 import { Carousel } from "@/components/Carousel";
 
 const Feature = [
-  { id: "1", title: "Custom UI", body: "Custom UI design according to Client" },
-  { id: "2", title: "Admin", body: "We provide Intergrated admin panle" },
-  { id: "3", title: "Email/Message", body: "on order Email and phone masssage provide" },
-  { id: "4", title: "Category", body: "Category wise product separeation" },
-  { id: "5", title: "Domain/SSL", body: "free domain ans ssl certicate for first year" },
-  { id: "6", title: "Timing", body: "In 3 day's website ready to launch" },
-  { id: "7", title: "Free Matainsec", body: "Fisrt 1 month free Mataince and changes for website." },
+  { id: "1", title: "Custom UI", body: "Tailored UI design according to client specifications." },
+  { id: "2", title: "Admin Panel", body: "Integrated admin panel for easy management and control." },
+  { id: "3", title: "Email & SMS Notifications", body: "Automated email and SMS notifications on order placement." },
+  { id: "4", title: "Product Categories", body: "Separation of products into categories for better organization." },
+  { id: "5", title: "Domain & SSL", body: "Free domain and SSL certificate for the first year." },
+  { id: "6", title: "Quick Launch", body: "Your website will be ready to launch within 3 days." },
+  { id: "7", title: "Free Maintenance", body: "One month of free maintenance and updates for your website." },
 ];
+
 export default function Home() {
   return (
     <div>
