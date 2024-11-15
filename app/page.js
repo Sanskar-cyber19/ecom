@@ -1,132 +1,35 @@
 import { Carousel } from "@/components/Carousel";
 
+const Feature = [
+  { id: "1", title: "Custom UI", body: "Custom UI design according to Client" },
+  { id: "2", title: "Admin", body: "We provide Intergrated admin panle" },
+  { id: "3", title: "Email/Message", body: "on order Email and phone masssage provide" },
+  { id: "4", title: "Category", body: "Category wise product separeation" },
+  { id: "5", title: "Domain/SSL", body: "free domain ans ssl certicate for first year" },
+  { id: "6", title: "Timing", body: "In 3 day's website ready to launch" },
+  { id: "7", title: "Free Matainsec", body: "Fisrt 1 month free Mataince and changes for website." },
+];
 export default function Home() {
   return (
     <div>
       <div className="w-100" style={{ height: "60vh" }}>
         <Carousel />
       </div>
+      <h3 className="text-center my-3">Feature</h3>
       <div className="container py-3">
-        <div className="row">
-          <div className="col-lg-4 text-center">
-            <svg
-              className="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 140x140"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#777"></rect>
-              <text x="50%" y="50%" fill="#777" dy=".3em">
-                140x140
-              </text>
-            </svg>
-
-            <h2>Heading</h2>
-            <p>
-              Some representative placeholder content for the three columns of
-              text below the carousel. This is the first column.
-            </p>
-            <p>
-              <a className="btn btn-secondary" href="#">
-                View details »
-              </a>
-            </p>
-          </div>
-          <div className="col-lg-4 text-center">
-            <svg
-              className="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 140x140"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#777"></rect>
-              <text x="50%" y="50%" fill="#777" dy=".3em">
-                140x140
-              </text>
-            </svg>
-
-            <h2>Heading</h2>
-            <p>
-              Another exciting bit of representative placeholder content. This
-              time, we've moved on to the second column.
-            </p>
-            <p>
-              <a className="btn btn-secondary" href="#">
-                View details »
-              </a>
-            </p>
-          </div>
-
-          <div className="col-lg-4 text-center">
-            <svg
-              className="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 140x140"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#777"></rect>
-              <text x="50%" y="50%" fill="#777" dy=".3em">
-                140x140
-              </text>
-            </svg>
-
-            <h2>Heading</h2>
-            <p>
-              And lastly this, the third column of representative placeholder
-              content.
-            </p>
-            <p>
-              <a className="btn btn-secondary" href="#">
-                View details »
-              </a>
-            </p>
-          </div>
-
-          <div className="col-lg-4 text-center">
-            <svg
-              className="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 140x140"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#777"></rect>
-              <text x="50%" y="50%" fill="#777" dy=".3em">
-                140x140
-              </text>
-            </svg>
-
-            <h2>Heading</h2>
-            <p>
-              And lastly this, the third column of representative placeholder
-              content.
-            </p>
-            <p>
-              <a className="btn btn-secondary" href="#">
-                View details »
-              </a>
-            </p>
-          </div>
-          
+        <div className="row justify-content-center">
+          {Feature.map((f) => (
+            <div className="col-sm-6 col-lg-4 mb-4" key={f.id}>
+              <div className="card text-center">
+                <div className="card-body">
+                  <h5 className="card-title">{f.title}</h5>
+                  <p className="card-text">
+                    {f.body}
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>
